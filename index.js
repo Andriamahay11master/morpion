@@ -3,7 +3,8 @@ import './style.css';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>Morpion game</h1>
+appDiv.innerHTML = `<div class="appBody">
+<h1>Morpion game</h1>
 <table class="tableMorpion">
 <tr>
   <td id="case0"></td>
@@ -21,6 +22,7 @@ appDiv.innerHTML = `<h1>Morpion game</h1>
   <td id="case8"></td>
 </tr>
 </table>
+</div>
 `;
 
 let clickCounter = 1;
